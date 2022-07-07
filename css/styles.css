@@ -17,20 +17,22 @@
    font-size: 1rem;
    display: grid;
    grid-template-areas:
-     "header"
-     "main"
-     "footer";
+     "header header header"
+     "main main main"
+     "footer footer footer";
      grid-template-rows: auto 1fr auto;
  }
 
  header {
    background: #78629b;
    min-height: 80px;
+   
  }
 
 
  main {
    grid-area: main;
+   background-image: url(f4379b75a9badc1bec47ada0b6e3c9f2.jpg);
  }
 
  footer {
