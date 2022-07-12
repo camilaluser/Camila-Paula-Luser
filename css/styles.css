@@ -19,6 +19,7 @@
 
  .box{
   display: grid;
+  width: 100%;
   grid-template-areas:
     "header"
     "main"
@@ -27,11 +28,14 @@
 
  }
 
- header {
+
+
+ header{
    background: #352c44;
    min-height: 80px;
    
  }
+
 
 
  main {
@@ -39,24 +43,76 @@
    background-image: url(f4379b75a9badc1bec47ada0b6e3c9f2.jpg);
  }
 
- footer {
-   grid-area: footer;
-   display: block;
-   background-color: #352c44;
-   color: white;
-   width: 100%;
-   padding: 40px;
-   
- }
+ 
+
+
+  
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #040c0b;
+  grid-area: footer; }
+  footer #redes {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer #redes ul {
+      position: relative;
+      display: flex;
+      z-index: 2; }
+     footer #redes {
+      position: relative;
+      list-style: none;
+      margin: 0.6rem; }
+      footer #redes {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 2.8rem;
+        height: 2.8rem;
+        color: #F3F4FC;
+        font-size: 1.8em;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(2px);
+        border-radius: 10px;
+        transition: 0.5s;
+        overflow: hidden; }
+     footer #redes :hover {
+      transform: translateY(-20px); }
+    footer #redes ::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.5);
+      transform: skewX(45deg) translateX(150px); }
+    footer #redes :hover::before {
+      transform: skewX(45deg) translateX(-150px); }
+    footer #redes  .fa-facebook-square:hover {
+      color: #3b5998; }
+    footer #redes  .fa-instagram:hover {
+      color: #b144bb; }
+    footer #redes  .fa-twitter-square:hover {
+      color: #1da1f2; }
+    
+     
+
+    
+ 
 
  nav {
    height: 100%;
    align-items: center;
  }
 
- .col-6-text-center{
-  background-color: #352c44;
- }
+ 
 
  h1 {
   display: inline;
@@ -68,35 +124,35 @@
    font-size: 30px;
    font-family: 'Lora', serif;
  }
-ul{
+
+
+
+
+#card {
+display: flex;
+justify-content: flex-start; }
+#card, h2{
+  font-family: 'Lora', serif;
+  font-family: 'Source Code Pro', monospace;}
+#card, p{
+  font-family: 'Lora', serif;
+  font-family: 'Source Code Pro', monospace;
+}
+#card, section.organic, section.recipes{
   display: inline-block;
+  background-color: #56803b;
+  min-height: 200px;
+  padding: 40px;
+  width: 100%;
 }
 
-li{
+
+
+li, ul {
   display: inline-block;
   list-style-type: none;
   margin: 0 20px;
 }
-
-
- section.organic{
-   display: inline-block;
-   background-color: #56803b;
-   min-height: 200px;
-   padding: 40px;
-   width: 100%;
- }
-
-
- section.recipes {
-   display: inline-block;
-   background-color: #56803b;
-   min-height: 200px;
-   padding: 40px;
-   width: 100%;
- }
-
-
  
  .productos {
    display: flex;
