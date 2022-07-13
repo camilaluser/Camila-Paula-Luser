@@ -28,14 +28,29 @@
 
  }
 
-
-
  header{
    background: #352c44;
    min-height: 80px;
    
  }
+  h1, .titulo.principal{
+  color: white;
+  display: inline;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+   font-weight: bold;
+   margin: 20px auto;
+   font-size: 30px;
+   font-family: 'Lora', serif;
+ }
 
+ 
+  
+       
+ nav {
+  height: 100%;
+  align-items: center;
+}
 
 
  main {
@@ -43,14 +58,12 @@
    background-image: url(f4379b75a9badc1bec47ada0b6e3c9f2.jpg);
  }
 
- 
 
 
-  
-footer {
+ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #040c0b;
+  background-color: #352c44;
   grid-area: footer; }
   footer #redes {
     display: flex;
@@ -60,72 +73,64 @@ footer {
       position: relative;
       display: flex;
       z-index: 2; }
-     footer #redes {
-      position: relative;
-      list-style: none;
-      margin: 0.6rem; }
-      footer #redes {
+      footer #redes ul li {
         position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        width: 2.8rem;
-        height: 2.8rem;
-        color: #F3F4FC;
-        font-size: 1.8em;
-        border: 1px solid rgba(255, 255, 255, 0.4);
-        border-right: 1px solid rgba(255, 255, 255, 0.2);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(2px);
-        border-radius: 10px;
-        transition: 0.5s;
-        overflow: hidden; }
-     footer #redes :hover {
-      transform: translateY(-20px); }
-    footer #redes ::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 50px;
-      height: 100%;
-      background: rgba(255, 255, 255, 0.5);
-      transform: skewX(45deg) translateX(150px); }
-    footer #redes :hover::before {
-      transform: skewX(45deg) translateX(-150px); }
-    footer #redes  .fa-facebook-square:hover {
-      color: #3b5998; }
-    footer #redes  .fa-instagram:hover {
-      color: #b144bb; }
-    footer #redes  .fa-twitter-square:hover {
-      color: #1da1f2; }
+        list-style: none;
+        margin: 0.6rem; }
+        footer #redes ul li a {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          width: 2.8rem;
+          height: 2.8rem;
+          color: #F3F4FC;
+          font-size: 1.8em;
+          border: 1px solid rgba(255, 255, 255, 0.4);
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+          box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(2px);
+          border-radius: 10px;
+          transition: 0.5s;
+          overflow: hidden; }
+          footer #redes ul li a:hover {
+            transform: translateY(-20px); }
+          footer #redes ul li a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.5);
+            transform: skewX(45deg) translateX(150px); }
+          footer #redes ul li a:hover::before {
+            transform: skewX(45deg) translateX(-150px); }
+          footer #redes ul li a .fa-facebook-square:hover {
+            color: #3b5998; }
+          footer #redes ul li a .fa-instagram:hover {
+            color: #b144bb; }
+          footer #redes ul li a .fa-twitter-square:hover {
+            color: #1da1f2; }
+  footer #info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-     
-
-    
- 
-
- nav {
-   height: 100%;
-   align-items: center;
- }
-
- 
-
- h1 {
-  display: inline;
-   color: white;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   text-align: center;
-   font-weight: bold;
-   margin: 20px auto;
-   font-size: 30px;
-   font-family: 'Lora', serif;
- }
-
-
+    align-items: flex-end;
+    color: #F3F4FC; 
+    font-family: 'Lora', serif;
+    font-family: 'Source Code Pro', monospace;
+    }
+    footer, #info, h3, h4{
+      font-size: 15x;
+    }
+  footer .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 
 #card {
@@ -158,7 +163,13 @@ li, ul {
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
+   color: black;
+   font-family: 'Lora', serif;
+   font-family: 'Source Code Pro', monospace;
  }
+.prpductos .titulo.productos h1{
+  color: black;
+}
 
 
 
