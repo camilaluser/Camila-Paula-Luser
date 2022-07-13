@@ -56,10 +56,15 @@ h3{
   color: #F3F4FC;
 }
 
-.container.fluid{
+.container{
   color: black;
+  padding: 10px;
 }
-content{
+.my-sm-5-d-inline-block-bg-primary{
+  color: #F3F4FC;
+}
+
+.products.html{
   display: flex;
   justify-content: space-between;
   display: inline-block;
