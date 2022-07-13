@@ -75,7 +75,15 @@ img{
  height: 220px;
   align-items: center;
 }
-       
+.img.index{
+  width: 800px;
+  height: 850px;
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+}
  nav {
   height: 100%;
   align-items: center;
