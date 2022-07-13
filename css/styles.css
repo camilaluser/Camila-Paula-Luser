@@ -9,10 +9,6 @@
  }
 
  body {
-   width: 100%;
-   height: 100vh;
-   background-color: antiquewhite;
-   color: white;
    font-family: 'Courier New', Courier, monospace;
    font-size: 1rem;
  }
@@ -33,9 +29,10 @@
    min-height: 80px;
    
  }
-  h1, .titulo.principal{
+
+ h1, .titulo.principal {
   color: white;
-  display: inline;
+ display: inline ;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
    font-weight: bold;
@@ -44,8 +41,40 @@
    font-family: 'Lora', serif;
  }
 
- 
-  
+h3{
+  color: black;
+  display: inline ;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+   font-weight: bold;
+   margin: 20px auto;
+   font-size: 30px;
+   font-family: 'Lora', serif;
+
+}
+.media{
+  color: #F3F4FC;
+}
+
+.container.fluid{
+  color: black;
+}
+content{
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+ flex-direction: row;
+ background-image: url(b6d987bd67802923300829dbb08633ab.jpg);
+ background-repeat:no-repeat;
+  background-position-x:center;
+  background-position-y:center;
+  background-size: 10rem;
+}
+img{
+ width: 250px;
+ height: 220px;
+  align-items: center;
+}
        
  nav {
   height: 100%;
@@ -58,13 +87,12 @@
    background-image: url(f4379b75a9badc1bec47ada0b6e3c9f2.jpg);
  }
 
-
-
  footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #352c44;
-  grid-area: footer; }
+  grid-area: footer;
+  color: #F3F4FC; }
   footer #redes {
     display: flex;
     justify-content: center;
@@ -167,10 +195,6 @@ li, ul {
    font-family: 'Lora', serif;
    font-family: 'Source Code Pro', monospace;
  }
-.prpductos .titulo.productos h1{
-  color: black;
-}
-
 
 
 
