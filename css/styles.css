@@ -94,6 +94,7 @@ img{
 .button{
   display: flex;
   justify-content: space-between;
+ 
 }
  nav {
   height: 100%;
@@ -181,6 +182,7 @@ img{
 
 
 #card {
+  color: black;
 display: flex;
 justify-content: flex-start; }
 #card, h2{
