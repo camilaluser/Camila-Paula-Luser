@@ -66,11 +66,9 @@ h3{
   color: black;
   padding: 10px;
 }
-.my-sm-5-d-inline-block-bg-primary{
-  color: #F3F4FC;
-}
 
-.products.html{
+
+.products-html{
   display: flex;
   justify-content: space-between;
   display: inline-block;
@@ -86,11 +84,20 @@ img{
  height: 220px;
   align-items: center;
 }
-.img.index{
+img.index{
   width: 800px;
   height: 850px;
 }
+img.mission{
+  width: 900px;
+  height: 3000px;
+}
 
+p.lead{
+  color: #F3F4FC;
+  text-shadow: black;
+  text-overflow: clip;
+}
 .button{
   display: flex;
   justify-content: space-between;
