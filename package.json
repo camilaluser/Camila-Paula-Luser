@@ -5,7 +5,7 @@
   "name": "coffee-green-coderhouse",
   "scripts": {
     "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed scss/main.scss css/estilos.css"
+    "build:css": "node-sass --output-style compressed scss/estilos.css css/main.scss"
   },
   "version": "1.0.0",
   "devDependencies": {
@@ -13,3 +13,4 @@
     "nodemon": "^2.0.18"
   }
 }
+

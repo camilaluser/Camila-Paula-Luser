@@ -84,16 +84,16 @@ img{
  height: 220px;
   align-items: center;
 }
-img.index{
-  width: 800px;
-  height: 850px;
+.img-index{
+  width: 700px;
+  height: 750px;
 }
-img.mission{
+.img-mission{
   width: 900px;
   height: 3000px;
 }
 
-p.lead{
+.p-lead{
   color: #F3F4FC;
   text-shadow: black;
   text-overflow: clip;
@@ -170,6 +170,7 @@ p.lead{
           footer #redes ul li a .fa-twitter-square:hover {
             color: #1da1f2; }
   footer #info {
+    padding-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,25 +189,50 @@ p.lead{
     align-items: center; }
 
 
-#card {
+#card-index {
   color: black;
 display: flex;
 justify-content: flex-start; }
-#card, h2{
+#card-index, h2{
   font-family: 'Lora', serif;
   font-family: 'Source Code Pro', monospace;}
-#card, p{
+#card-index, p{
   font-family: 'Lora', serif;
   font-family: 'Source Code Pro', monospace;
 }
-#card, section.organic, section.recipes{
+#card-index, section.organic, section.recipes{
   display: inline-block;
   min-height: 200px;
   padding: 40px;
   width: 100%;
 }
 
+#card-products{
+  width: 250px;
+ height: 220px;
+  align-items: center;
+  
+  
+}
+.card-img-top{ 
+  width: 250px;
+  height: 220px;
+   align-items: center
 
+}
+.card-body{
+  align-items: center;
+  padding: 20px;
+}
+.card-shop{
+  display: inline-block;
+  padding-left: 20px;
+}
+.card-products{
+  display: inline-block;
+  padding-left: 20px;
+  
+}
 
 li, ul {
   display: inline-block;
@@ -224,7 +250,12 @@ li, ul {
  }
 
 
- 
+ .titulo-shop{
+  font-family: 'Lora', serif;
+  font-family: 'Source Code Pro', monospace;
+  text-shadow: #F3F4FC;
+  text-transform: capitalize;
+ }
  
  .circle{
   margin-top: 30px;
