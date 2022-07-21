@@ -57,21 +57,50 @@
 
 <!--MAIN-->
     <main class="html">
-        <h2 class="contacts" id="titulo-contactos"> Contact Us</h2>
-        <form action="Forms.html">
-            <p>Full name: <input type="text" name="fullname"></p>
-            <form action="Forms.html"></form>
-            <p>Phone number: <input type="text" ></p>
-            <form action="Forms.html"></form>
-            <p>Email: <input type="text"></p>
-            <form action="Forms.html"></form>
-            <p>
-                Would you like to receive more information about our new products via email?: <br>
-                <input type="checkbox" name="Yes"> Yes <br>
-                <input type="checkbox" name="No"> No <br>
-            </p>
-            <p> <input type="submit" value="Send information"></p>
-        </form>
+
+        <div class="container-fluid">
+        <h2 class="contacts" id="titulo-contactos"> Contact Us!</h2>
+
+        <form>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Full Name:</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Coder House">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Phone Number:</label>
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="9853 93023">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Email:</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="email@example.com">
+              </div>
+          </form>    
+          <div>
+            Leave a Message!
+          <input class="form-control form-control-lg" type="text" placeholder="write something">
+          </div>
+    <div>
+        Would you like to receive more information about our new products via email?: <br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">No</label>
+            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+          </div>
+          <div class="form-check mb-2 mr-sm-2">
+            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+            <label class="form-check-label" for="inlineFormCheck">
+              Remember me
+            </label>
+          </div>
+         <div><span> <button type="submit" class="btn btn-outline-dark" class="btn btn-primary">Send Information</button> </span></div> 
+
+          
+
+     
     </main>
 
   <!--FOOTER--> 
