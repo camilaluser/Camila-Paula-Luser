@@ -88,11 +88,14 @@ height: 220px;
  width: 700px;
  height: 750px;
 }
-.img-mission{
- width: 900px;
- height: 3000px;
+.media-vission{
+  padding-left: 20%;
+  color: black;
+  display: inline-block;
 }
-
+#media{
+  color: black;
+}
 .p-lead{
  color: #F3F4FC;
  text-shadow: black;
@@ -108,6 +111,9 @@ nav {
  align-items: center;
 }
 
+a{
+  color: #F3F4FC;
+}
 
 main {
   grid-area: main;
