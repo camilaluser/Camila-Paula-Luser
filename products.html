@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Secular+One&family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Lora:ital,wght@1,500&family=Secular+One&family=Source+Code+Pro:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap" rel="stylesheet">
     <link rel="image" href="f4379b75a9badc1bec47ada0b6e3c9f2.jpg">
     <!--Title-->
     <title class="title">Green Coffee Store</title>
@@ -24,7 +28,6 @@
     <script src="https://kit.fontawesome.com/a358678dcd.js" crossorigin="anonymous"></script>
     <!--Styles link-->
     <link rel="stylesheet" href="./css/styles.css">
-    
 </head>
 
 
@@ -34,7 +37,7 @@
     <div class="container-fluid">
         <div class="row justify-content-center align-tems-center">
             <div class="col-6 text-center">
-                <h1 class="titulo.principal">COFFEE GREEN STORE</h1>
+                <h1 class="titulo-principal">COFFEE GREEN STORE</h1>
             </div>
                     <!--NAVEGATION BAR-->
                 <nav class="navbar navbar-expand-lg"> 
@@ -58,13 +61,20 @@
 
    <!--MAIN--> 
       <main class="products-html">
-                <h2 class="font-weight-bold" class="titulo-productos">All Of our products here!</h2>
-
+                <h2 class="titulo-productos">All Of our products here!</h2>
             <div class="card-products">
                     <div class="card-body">
                       <p class="card-text">Regular Americano</p>
                     </div>
-                    <img src="./images/1000_F_187470550_5jIfekm0UmSa1OFrqqeXzVW0x5lqDMp8.jpg" alt="Card image">
+                    <div class="contenedor">
+                    <figure>
+                      <img src="./images/1000_F_187470550_5jIfekm0UmSa1OFrqqeXzVW0x5lqDMp8.jpg" alt="Card image">
+                     <div class="capa">
+                      <h4>Regular Americano</h4>
+                      <p>$2.00</p>
+                     </div> 
+                    </figure>  
+                    </div>
                     <div class="card-body">
                       <span><button type="button" class= "btn btn-outline-dark">Order Now</button></span>
                     </div>
@@ -73,7 +83,15 @@
                 <div class="card-body">
                     <p class="card-text">Cappuchino</p>
                   </div>
-                  <img src="./images/1000_F_209994422_jYqGimDZVmYGBRJ0zznuOVowGXDSovXO.jpg" alt="Card image">
+                  <div class="contenedor">
+                    <figure>
+                      <img src="./images/1000_F_209994422_jYqGimDZVmYGBRJ0zznuOVowGXDSovXO.jpg" alt="Card image">
+                      <div class="capa">
+                        <h4>Cappuchino</h4>
+                        <p>$2.00</p>
+                       </div> 
+                    </figure>
+                  </div>
                   <div class="card-body">
                     <span><button type="button" class= "btn btn-outline-dark">Order Now</button></span>
                   </div>
@@ -82,7 +100,15 @@
                 <div class="card-body">
                 <p class="card-text">Cold Brew</p>
               </div>
-              <img src="./images/1000_F_510515930_qgvuAAhzbL8pU2AW3fLMTReryJCNN3Nb.jpg" alt="Card image">
+              <div class="contenedor">
+                <figure>
+                  <img src="./images/1000_F_510515930_qgvuAAhzbL8pU2AW3fLMTReryJCNN3Nb.jpg" alt="Card image">
+                  <div class="capa">
+                    <h4>Cold Brew</h4>
+                    <p>$2.50</p>
+                   </div> 
+                </figure>
+              </div>
               <div class="card-body">
                 <span><button type="button" class= "btn btn-outline-dark">Order Now</button></span>
               </div>
@@ -92,7 +118,15 @@
                 <div class="card-body">
                     <p class="card-text">Flat White</p>
                   </div>
-                  <img src="./images/240_F_230741412_UFfPxDrgVYot7gJ5a3pHIDt6eKzWzsUK.jpg" alt="Card image">
+                  <div class="contenedor">
+                    <figure>
+                      <img src="./images/240_F_230741412_UFfPxDrgVYot7gJ5a3pHIDt6eKzWzsUK.jpg" alt="Card image">
+                      <div class="capa">
+                        <h4>Flat White</h4>
+                        <p>$2.00</p>
+                       </div> 
+                    </figure>
+                  </div>
                   <div class="card-body">
                     <span><button type="button" class= "btn btn-outline-dark">Order Now</button></span>
                   </div>
@@ -102,7 +136,15 @@
                 <div class="card-body">
                     <p class="card-text">Chai Latte</p>
                   </div>
-                  <img src="./images/chai-latte-in-glass-with-milk.jpg" alt="Card image">
+                  <div class="contenedor">
+                    <figure>
+                      <img src="./images/chai-latte-in-glass-with-milk.jpg" alt="Card image">
+                      <div class="capa">
+                        <h4>Chai Latte</h4>
+                        <p>$3.00</p>
+                       </div> 
+                    </figure>
+                  </div>
                   <div class="card-body">
                     <span><button type="button" class= "btn btn-outline-dark">Order Now</button></span>
                   </div>
@@ -111,7 +153,15 @@
                 <div class="card-body">
                     <p class="card-text">Coffee Green Experience</p>
                   </div>
-                  <img src="./images/240_F_227392683_T9yyEbp3HEXIRtHjPYkpv6NQ87epzIXJ.jpg" alt="Card image">
+                  <div class="contenedor">
+                    <figure>
+                      <img src="./images/240_F_227392683_T9yyEbp3HEXIRtHjPYkpv6NQ87epzIXJ.jpg" alt="Card image">
+                      <div class="capa">
+                        <h4>Coffee Green Experience</h4>
+                        <p>$10.99</p>
+                       </div> 
+                    </figure>
+                  </div>
                   <div class="card-body">
                     <span><button type="button" class= "btn btn-outline-dark">Order Now</button></span>
                   </div>
