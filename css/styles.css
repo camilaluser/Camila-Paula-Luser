@@ -36,6 +36,12 @@ h1, .titulo.principal {
   font-size: 30px;
   font-family: 'Lora', serif; }
  
+h2{
+    font-family: 'Calistoga', cursive;
+font-family: 'Lora', serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Source Code Pro', monospace;
+  }
 
 h3 {
   color: black;
@@ -94,7 +100,10 @@ nav {
   .nav-item{
     color: #F3F4FC;
   }
-
+a{
+  color: ivory;
+  font-size: large;
+}
 main {
   grid-area: main;
   background-image: url(f4379b75a9badc1bec47ada0b6e3c9f2.jpg); }
@@ -241,12 +250,6 @@ li, ul {
   font-family: 'Lora', serif;
   font-family: 'Source Code Pro', monospace; }
 
- #titulo-shop {
-  font-family: 'Calistoga', cursive;
-  font-family: 'Lora', serif;
-  font-family: 'Secular One', sans-serif;
-  font-family: 'Source Code Pro', monospace;
-   }
 h2 {
     color: black;
     padding-bottom: 50px;
@@ -257,16 +260,7 @@ h2 {
     font-family: 'Secular One', sans-serif;
     font-family: 'Source Code Pro', monospace;
   }
-  .titulo-vission{
-    color: black;
-    padding-bottom: 50px;
-    padding: 30px;
-    padding-block-end: 30px;
-    font-family: 'Lora', serif;
-    font-family: 'Secular One', sans-serif;
-    font-family: 'Source Code Pro', monospace;
-
-  }
+  
 
   .contenedor{
     width: 100%;
@@ -325,26 +319,31 @@ h2 {
     transform: translate; }
   100% { } }
   @media screen and (min-width: 320px) {
-    .circle .box {
+    .box {
       grid-template-rows: auto 1fr auto;
       grid-template-areas: "header" "main" "footer"; } }
+  
   @media screen and (min-width: 480px) {
-    .circle .box {
+    .box {
       grid-template-rows: auto  1fr auto;
       grid-template-areas: "header" "main" "footer"; } }
+  
   @media screen and (min-width: 600px) {
-    .circle .box {
+    .box {
       grid-template-rows: auto  1fr auto;
       grid-template-areas: "header" "main" "footer"; } }
+  
   @media screen and (min-width: 768px) {
-    .circle .box {
+    .box {
       grid-template-rows: auto  1fr auto;
       grid-template-areas: "header" "main" "footer"; } }
+  
   @media screen and (min-width: 1024px) {
-    .circle .box {
+    .box {
       grid-template-rows: auto  1fr auto;
       grid-template-areas: "header" "main" "footer"; } }
+  
   @media screen and (min-width: 1200px) {
-    .circle .box {
+    .box {
       grid-template-rows: auto  1fr auto;
       grid-template-areas: "header" "main" "footer"; } }

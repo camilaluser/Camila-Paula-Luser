@@ -46,7 +46,12 @@ display: inline ;
   font-size: 30px;
   font-family: 'Lora', serif;
 }
-
+.h2{
+  font-family: 'Calistoga', cursive;
+font-family: 'Lora', serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
 h3{
  color: black;
  display: inline ;
@@ -258,14 +263,6 @@ li, ul {
   font-family: 'Source Code Pro', monospace;
 }
 
-
-
-#titulo-shop {
-  font-family: 'Calistoga', cursive;
-  font-family: 'Lora', serif;
-  font-family: 'Secular One', sans-serif;
-  font-family: 'Source Code Pro', monospace;
-   }
 h2 {
     color: black;
     padding-bottom: 50px;
@@ -276,17 +273,6 @@ h2 {
     font-family: 'Secular One', sans-serif;
     font-family: 'Source Code Pro', monospace;
   }
-  .titulo-vission{
-    color: black;
-    padding-bottom: 50px;
-    padding: 30px;
-    padding-block-end: 30px;
-    font-family: 'Lora', serif;
-    font-family: 'Secular One', sans-serif;
-    font-family: 'Source Code Pro', monospace;
-
-  }
-
 
 
 
@@ -341,7 +327,6 @@ h2 {
     transition: all 500ms ease-out;
     margin-top: 30px;
   }
-
 .contenedor figure .capa p{
   color: white;
   font-size: 15px;
