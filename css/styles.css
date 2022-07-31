@@ -53,6 +53,18 @@ h3 {
   font-size: 30px;
   font-family: 'Lora', serif; }
 
+  .form-inline{
+    text-shadow: 1px 1px #bcbdc4;
+    font-size: 20px;
+  }
+  .text-index{
+    font-size: 25px;
+    text-shadow: 1px 1px #F3F4FC
+  }
+  .card-text{
+  color: black;
+  text-shadow: 1px 1px #bcbdc4;
+}
 .media-index {
   color: #F3F4FC; }
 
@@ -284,6 +296,7 @@ h2 {
       height: 100%;
       transition: all 500ms ease-out;
     }
+   
     .contenedor figure .capa{
       position: absolute;
       top: 0%;
@@ -295,6 +308,17 @@ h2 {
       visibility: hidden;
       text-align: center;
     
+    }
+    .contenedor figure .capa p{
+      color: #F3F4FC;
+      text-shadow: black;
+      text-align: center;
+
+    }
+    .contenedor figure .capa h4{
+      color: #F3F4FC;
+      text-shadow: black
+
     }
     .contenedor figure:hover > .capa{
     opacity: 1;
